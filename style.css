@@ -1,10 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+   
+}
 #main{
     display: flex;
     justify-content: center;
     align-items: center;
 }
+#survey-heading{
+    font-weight: 800;
+    color:green;
+}
 .inner{
-    width: 80vw;
+    width: 94vw;
     height: auto;
     border:1px solid black;
+}
+
+.input-field{
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.input-field input{
+    margin-top:10px;
+    padding-inline: 10px;
+    padding-block: 10px;
+}
+
+.form form{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-start;
 }
